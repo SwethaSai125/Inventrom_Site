@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	padding: 10px;
+	right: 30px;
+}  
+a:hover{
+	color: green;
+}
+.head{
+	align-content: center;
+	display: inline;
+}
+.head-img{
+	padding-left: 200px;
+}
+.info{
+	align-content: center;
+	padding-left: 600px;
+}
+.image{
+	position: relative;
+	color: white;
+}
+.image-text{
+	position: absolute;
+	top: 25%;
+    left: 8%;
+    font-family: sans-serif;
+    letter-spacing: 1.2px;
+    font-size: 40px;
+}
+.image-text2{
+	position: absolute;
+	top: 35%;
+	padding-left: 25%;
+	font-family: sans-serif;
+	letter-spacing: 1.2px;
+	font-size: 40px;
+}
+.boltiot{
+	color: white;
+	position: absolute;
+	bottom: 40%;
+	text-decoration: none;
+	left: 40%;
+	font-family: sans-serif;
+}
+.boltiot:hover{
+	color: black;
+}
+.about-us{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about-heading{
+    color:#139139;
+    margin:35px;
+    font-weight: bold;
+    font-size: large;
+    font-family: sans-serif;
+}
+.about-description{
+    color:#000000;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom:30px;
+    font-size:13px
+    font-family:sans-serif;
+}
+.about-cards{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+.about-cards img{
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.mission-text{
+    padding-left: 68px;
+    margin-top: 13px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.vision-text{
+    padding-left: 68px;
+    margin-top: 13px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.award-cards{
+float: left;
+}
+hr{
+	width: 70px;
+	border-style: dashed none none;
+	border-color: grey;
+}
+.award-text{
+	color: grey;
+	font-family: sans-serif;
+	font-size: 11px;
+	text-align: center;
+}
+.thirdchild{
+	float: left;
+}
+.image1{
+	float: left;
+}
+.image2{
+	float: left;
+}
+.image3{
+	float: left;
+}
+
+.center{
+        text-align:center;
+        padding-right:5%;
+}
+.footer{
+    background-color: #139139;
+    height:100px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    color:white;
+}
+.footer a{
+    margin:10px;
+
+}
